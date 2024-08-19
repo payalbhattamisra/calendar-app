@@ -1,0 +1,33 @@
+.calendar {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .header, .days, .row {
+    display: flex;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .disabled {
+    color: #d3d3d3;
+  }
+  
+  .cell {
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+  }
+  
+  .number {
+    display: inline-block;
+    padding: 8px;
+    background: #0070f3;
+    color: white;
+    border-radius: 50%;
+  }
+  

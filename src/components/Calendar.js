@@ -4,7 +4,7 @@ import './Calendar.css';
 
 const Calendar = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
-  const [selectedDate, setSelectedDate] = useState(new Date());
+  //const [selectedDate, setSelectedDate] = useState(new Date());
 
   const renderHeader = () => {
     return (
